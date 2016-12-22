@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AA2DF41DF48EBF007AFDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA2DF31DF48EBF007AFDA6 /* AppDelegate.swift */; };
+		01AA2DF61DF48EBF007AFDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA2DF51DF48EBF007AFDA6 /* ViewController.swift */; };
+		01AA2DF91DF48EBF007AFDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA2DF71DF48EBF007AFDA6 /* Main.storyboard */; };
+		01AA2DFC1DF48EC0007AFDA6 /* WaBu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01AA2DFA1DF48EC0007AFDA6 /* WaBu.xcdatamodeld */; };
+		01AA2DFE1DF48EC0007AFDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AA2DFD1DF48EC0007AFDA6 /* Assets.xcassets */; };
+		01AA2E011DF48EC0007AFDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AA2DFF1DF48EC0007AFDA6 /* LaunchScreen.storyboard */; };
+		01AA2E0C1DF48EC0007AFDA6 /* WaBuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA2E0B1DF48EC0007AFDA6 /* WaBuTests.swift */; };
+		01AA2E171DF48EC0007AFDA6 /* WaBuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AA2E161DF48EC0007AFDA6 /* WaBuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01AA2E081DF48EC0007AFDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AA2DE81DF48EBF007AFDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AA2DEF1DF48EBF007AFDA6;
+			remoteInfo = WaBu;
+		};
+		01AA2E131DF48EC0007AFDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01AA2DE81DF48EBF007AFDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01AA2DEF1DF48EBF007AFDA6;
+			remoteInfo = WaBu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AA2DF01DF48EBF007AFDA6 /* WaBu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaBu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AA2DF31DF48EBF007AFDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01AA2DF51DF48EBF007AFDA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01AA2DF81DF48EBF007AFDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01AA2DFB1DF48EC0007AFDA6 /* WaBu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WaBu.xcdatamodel; sourceTree = "<group>"; };
+		01AA2DFD1DF48EC0007AFDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01AA2E001DF48EC0007AFDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01AA2E021DF48EC0007AFDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AA2E071DF48EC0007AFDA6 /* WaBuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaBuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AA2E0B1DF48EC0007AFDA6 /* WaBuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaBuTests.swift; sourceTree = "<group>"; };
+		01AA2E0D1DF48EC0007AFDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AA2E121DF48EC0007AFDA6 /* WaBuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaBuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AA2E161DF48EC0007AFDA6 /* WaBuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaBuUITests.swift; sourceTree = "<group>"; };
+		01AA2E181DF48EC0007AFDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AA2DED1DF48EBF007AFDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA2E041DF48EC0007AFDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA2E0F1DF48EC0007AFDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AA2DE71DF48EBF007AFDA6 = {
+			isa = PBXGroup;
+			children = (
+				01AA2DF21DF48EBF007AFDA6 /* WaBu */,
+				01AA2E0A1DF48EC0007AFDA6 /* WaBuTests */,
+				01AA2E151DF48EC0007AFDA6 /* WaBuUITests */,
+				01AA2DF11DF48EBF007AFDA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AA2DF11DF48EBF007AFDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AA2DF01DF48EBF007AFDA6 /* WaBu.app */,
+				01AA2E071DF48EC0007AFDA6 /* WaBuTests.xctest */,
+				01AA2E121DF48EC0007AFDA6 /* WaBuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AA2DF21DF48EBF007AFDA6 /* WaBu */ = {
+			isa = PBXGroup;
+			children = (
+				01AA2DF31DF48EBF007AFDA6 /* AppDelegate.swift */,
+				01AA2DF51DF48EBF007AFDA6 /* ViewController.swift */,
+				01AA2DF71DF48EBF007AFDA6 /* Main.storyboard */,
+				01AA2DFD1DF48EC0007AFDA6 /* Assets.xcassets */,
+				01AA2DFF1DF48EC0007AFDA6 /* LaunchScreen.storyboard */,
+				01AA2E021DF48EC0007AFDA6 /* Info.plist */,
+				01AA2DFA1DF48EC0007AFDA6 /* WaBu.xcdatamodeld */,
+			);
+			path = WaBu;
+			sourceTree = "<group>";
+		};
+		01AA2E0A1DF48EC0007AFDA6 /* WaBuTests */ = {
+			isa = PBXGroup;
+			children = (
+				01AA2E0B1DF48EC0007AFDA6 /* WaBuTests.swift */,
+				01AA2E0D1DF48EC0007AFDA6 /* Info.plist */,
+			);
+			path = WaBuTests;
+			sourceTree = "<group>";
+		};
+		01AA2E151DF48EC0007AFDA6 /* WaBuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01AA2E161DF48EC0007AFDA6 /* WaBuUITests.swift */,
+				01AA2E181DF48EC0007AFDA6 /* Info.plist */,
+			);
+			path = WaBuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AA2DEF1DF48EBF007AFDA6 /* WaBu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AA2E1B1DF48EC0007AFDA6 /* Build configuration list for PBXNativeTarget "WaBu" */;
+			buildPhases = (
+				01AA2DEC1DF48EBF007AFDA6 /* Sources */,
+				01AA2DED1DF48EBF007AFDA6 /* Frameworks */,
+				01AA2DEE1DF48EBF007AFDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaBu;
+			productName = WaBu;
+			productReference = 01AA2DF01DF48EBF007AFDA6 /* WaBu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01AA2E061DF48EC0007AFDA6 /* WaBuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AA2E1E1DF48EC0007AFDA6 /* Build configuration list for PBXNativeTarget "WaBuTests" */;
+			buildPhases = (
+				01AA2E031DF48EC0007AFDA6 /* Sources */,
+				01AA2E041DF48EC0007AFDA6 /* Frameworks */,
+				01AA2E051DF48EC0007AFDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AA2E091DF48EC0007AFDA6 /* PBXTargetDependency */,
+			);
+			name = WaBuTests;
+			productName = WaBuTests;
+			productReference = 01AA2E071DF48EC0007AFDA6 /* WaBuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01AA2E111DF48EC0007AFDA6 /* WaBuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AA2E211DF48EC0007AFDA6 /* Build configuration list for PBXNativeTarget "WaBuUITests" */;
+			buildPhases = (
+				01AA2E0E1DF48EC0007AFDA6 /* Sources */,
+				01AA2E0F1DF48EC0007AFDA6 /* Frameworks */,
+				01AA2E101DF48EC0007AFDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01AA2E141DF48EC0007AFDA6 /* PBXTargetDependency */,
+			);
+			name = WaBuUITests;
+			productName = WaBuUITests;
+			productReference = 01AA2E121DF48EC0007AFDA6 /* WaBuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AA2DE81DF48EBF007AFDA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Clayton Smith";
+				TargetAttributes = {
+					01AA2DEF1DF48EBF007AFDA6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					01AA2E061DF48EC0007AFDA6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01AA2DEF1DF48EBF007AFDA6;
+					};
+					01AA2E111DF48EC0007AFDA6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01AA2DEF1DF48EBF007AFDA6;
+					};
+				};
+			};
+			buildConfigurationList = 01AA2DEB1DF48EBF007AFDA6 /* Build configuration list for PBXProject "WaBu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AA2DE71DF48EBF007AFDA6;
+			productRefGroup = 01AA2DF11DF48EBF007AFDA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AA2DEF1DF48EBF007AFDA6 /* WaBu */,
+				01AA2E061DF48EC0007AFDA6 /* WaBuTests */,
+				01AA2E111DF48EC0007AFDA6 /* WaBuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AA2DEE1DF48EBF007AFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA2E011DF48EC0007AFDA6 /* LaunchScreen.storyboard in Resources */,
+				01AA2DFE1DF48EC0007AFDA6 /* Assets.xcassets in Resources */,
+				01AA2DF91DF48EBF007AFDA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA2E051DF48EC0007AFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA2E101DF48EC0007AFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AA2DEC1DF48EBF007AFDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA2DF61DF48EBF007AFDA6 /* ViewController.swift in Sources */,
+				01AA2DF41DF48EBF007AFDA6 /* AppDelegate.swift in Sources */,
+				01AA2DFC1DF48EC0007AFDA6 /* WaBu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA2E031DF48EC0007AFDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA2E0C1DF48EC0007AFDA6 /* WaBuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01AA2E0E1DF48EC0007AFDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA2E171DF48EC0007AFDA6 /* WaBuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01AA2E091DF48EC0007AFDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AA2DEF1DF48EBF007AFDA6 /* WaBu */;
+			targetProxy = 01AA2E081DF48EC0007AFDA6 /* PBXContainerItemProxy */;
+		};
+		01AA2E141DF48EC0007AFDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01AA2DEF1DF48EBF007AFDA6 /* WaBu */;
+			targetProxy = 01AA2E131DF48EC0007AFDA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01AA2DF71DF48EBF007AFDA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AA2DF81DF48EBF007AFDA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01AA2DFF1DF48EC0007AFDA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AA2E001DF48EC0007AFDA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01AA2E191DF48EC0007AFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01AA2E1A1DF48EC0007AFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AA2E1C1DF48EC0007AFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaBu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClaytonSmith.WaBu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01AA2E1D1DF48EC0007AFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaBu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClaytonSmith.WaBu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		01AA2E1F1DF48EC0007AFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaBuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClaytonSmith.WaBuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaBu.app/WaBu";
+			};
+			name = Debug;
+		};
+		01AA2E201DF48EC0007AFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaBuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClaytonSmith.WaBuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaBu.app/WaBu";
+			};
+			name = Release;
+		};
+		01AA2E221DF48EC0007AFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaBuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClaytonSmith.WaBuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaBu;
+			};
+			name = Debug;
+		};
+		01AA2E231DF48EC0007AFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WaBuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClaytonSmith.WaBuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WaBu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AA2DEB1DF48EBF007AFDA6 /* Build configuration list for PBXProject "WaBu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA2E191DF48EC0007AFDA6 /* Debug */,
+				01AA2E1A1DF48EC0007AFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AA2E1B1DF48EC0007AFDA6 /* Build configuration list for PBXNativeTarget "WaBu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA2E1C1DF48EC0007AFDA6 /* Debug */,
+				01AA2E1D1DF48EC0007AFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01AA2E1E1DF48EC0007AFDA6 /* Build configuration list for PBXNativeTarget "WaBuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA2E1F1DF48EC0007AFDA6 /* Debug */,
+				01AA2E201DF48EC0007AFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01AA2E211DF48EC0007AFDA6 /* Build configuration list for PBXNativeTarget "WaBuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AA2E221DF48EC0007AFDA6 /* Debug */,
+				01AA2E231DF48EC0007AFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01AA2DFA1DF48EC0007AFDA6 /* WaBu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01AA2DFB1DF48EC0007AFDA6 /* WaBu.xcdatamodel */,
+			);
+			currentVersion = 01AA2DFB1DF48EC0007AFDA6 /* WaBu.xcdatamodel */;
+			path = WaBu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01AA2DE81DF48EBF007AFDA6 /* Project object */;
+}
